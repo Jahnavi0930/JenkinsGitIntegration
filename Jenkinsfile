@@ -22,13 +22,13 @@ pipeline {
                     emailext attachLog: true, 
                         body: 'Test was successful', 
                         subject: 'Test status email', 
-                        to: 'nevilsukhadiya1234@gmail.com'
+                        to: 'ramyaruttala2001@gmail.com'
                 }
                 failure {
                     emailext attachLog: true, 
                         body: 'Test was Failed', 
                         subject: 'Test status email', 
-                        to: 'nevilsukhadiya1234@gmail.com'
+                        to: 'ramyaruttala2001@gmail.com'
                 }                                
             }
         }
@@ -52,13 +52,13 @@ pipeline {
                     emailext attachLog: true, 
                         body: 'Scan was successful', 
                         subject: 'Scan status email', 
-                        to: 'nevilsukhadiya1234@gmail.com'
+                        to: 'ramyaruttala2001@gmail.com'
                 }
                 failure {
                     emailext attachLog: true, 
                         body: 'Scan was Failed', 
                         subject: 'Scan status email', 
-                        to: 'nevilsukhadiya1234@gmail.com'
+                        to: 'ramyaruttala2001@gmail.com'
                 }                                
             }
         }
